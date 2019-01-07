@@ -103,7 +103,7 @@ namespace PdnPlugins
         {
             get
             {
-                return null;
+                return "oSoft";
             }
         }
 
@@ -132,7 +132,7 @@ namespace PdnPlugins
         }
 
         protected override void OnSetRenderInfo(PropertyBasedEffectConfigToken newToken, RenderArgs dstArgs, RenderArgs srcArgs)
-        {          
+        {
             base.OnSetRenderInfo(newToken, dstArgs, srcArgs);
         }
 
@@ -155,7 +155,7 @@ namespace PdnPlugins
         // Keywords:
         // URL:
         // Help:
-        
+
         void Render(Surface dst, Surface src, Rectangle rect)
         {
             // Delete any of these lines you don't need

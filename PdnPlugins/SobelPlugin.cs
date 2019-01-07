@@ -59,7 +59,7 @@ namespace PdnPlugins
         {
             get
             {
-                return null;
+                return "oSoft";
             }
         }
 
